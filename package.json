@@ -1,7 +1,7 @@
 {
   "name": "microsoft-speech-browser-sdk",
   "version": "0.0.3",
-  "description": "Microsoft Speech SDK for browsers",
+  "description": "Speech Recognition App using Microsoft Speech SDK",
   "main": "distrib/speech.browser.sdk-min.js",
   "types": "distrib/speech.browser.sdk.d.ts",
   "keywords": [
@@ -16,15 +16,12 @@
     "websocket",
     "speechtotext"
   ],
-  "bugs": {
-    "url": "https://github.com/Azure-Samples/SpeechToText-WebSockets-Javascript/issues"
-  },
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/Azure-Samples/SpeechToText-WebSockets-Javascript.git"
+    "url": "hhttps://github.com/efox3590/nycda-final-project.git"
   },
-  "author": "Microsoft",
-  "license": "ISC",
+  "author": "Emily",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
