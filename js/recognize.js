@@ -78,7 +78,7 @@
 
         // Stop the Recognition.
         function RecognizerStop(SDK, recognizer) {
-            // recognizer.AudioSource.Detach(audioNodeId) can be also used here. (audioNodeId is part of ListeningStartedEvent)
+            console.log("bitch didn't hear you and you pressed the stop button so I guess it's an error");
             recognizer.AudioSource.TurnOff();
         }
     
