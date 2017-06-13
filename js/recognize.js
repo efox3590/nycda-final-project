@@ -56,9 +56,11 @@
                     case "SpeechSimplePhraseEvent" :
                         UpdateRecognizedPhrase(JSON.stringify(event.Result.DisplayText));
                         break;
+
                     case "SpeechDetailedPhraseEvent" :
-                        UpdateRecognizedPhrase(JSON.stringify(event.Result, null, 2));
+                        UpdateRecognizedPhrase(JSON.parse(event.Result, null, 2));
                         break;
+                        
                     case "RecognitionEndedEvent" :
                         OnComplete();
                         UpdateStatus("Idle");
