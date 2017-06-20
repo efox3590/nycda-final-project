@@ -3,6 +3,7 @@ App transcribe audio streams into text that can display to the user or act upon 
 
 ### Note:
 * The Microsoft Speech Service returns only one recognition phrase result for all recognition modes. There is a maximum limit of 15 seconds for any single utterance.
+* Bleeps out profanity with asterisks 
 
 ### Sample Responses
 The payload result:
