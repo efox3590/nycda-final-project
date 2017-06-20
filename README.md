@@ -19,6 +19,17 @@ Navagate to http://localhost/3000 to launch
 ### Note:
 * The Microsoft Speech Service returns only one recognition phrase result for all recognition modes. There is a maximum limit of 15 seconds for any single utterance.
 
+### Sample Responses
+The payload result:
+``{
+  "RecognitionStatus": "Success",
+  "DisplayText": "Remind me to buy cat food",
+  "Offset": "1236645672289",
+  "Duration": "1236645672289"
+}``
+
+It is defaulted to only display the ``DisplayText`` for this application.
+
 # Web Dev Tools
 * microsoft-speech-browser-sdk
 * express
