@@ -1,7 +1,7 @@
 {
-  "name": "microsoft-speech-browser-sdk",
+  "name": "speech-recognizer",
   "version": "0.0.3",
-  "description": "Speech Recognition App using Microsoft Speech SDK",
+  "description": "Microsoft Speech SDK for browsers",
   "main": "distrib/speech.browser.sdk-min.js",
   "types": "distrib/speech.browser.sdk.d.ts",
   "keywords": [
@@ -16,12 +16,8 @@
     "websocket",
     "speechtotext"
   ],
-
-  "repository": {
-    "type": "git",
-    "url": "hhttps://github.com/efox3590/nycda-final-project.git"
-  },
   "author": "Emily",
+  "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-bump": "^2.7.0",
@@ -41,5 +37,8 @@
     "featureRelease": "npm install & gulp featureRelease",
     "majorRelease": "npm install & gulp majorRelease",
     "preRelease": "npm install & gulp preRelease"
+  },
+  "dependencies": {
+    "supervisor": "^0.12.0"
   }
 }
