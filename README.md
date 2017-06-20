@@ -2,4 +2,4 @@
 App for voice recognition
 
 ## To Start
-node server
+``node server``
