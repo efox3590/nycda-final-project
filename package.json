@@ -4,18 +4,7 @@
   "description": "Microsoft Speech SDK for browsers",
   "main": "distrib/speech.browser.sdk-min.js",
   "types": "distrib/speech.browser.sdk.d.ts",
-  "keywords": [
-    "microsoft",
-    "speech",
-    "sdk",
-    "javascript",
-    "typescript",
-    "ts",
-    "js",
-    "browser",
-    "websocket",
-    "speechtotext"
-  ],
+  "start": "node server",
   "author": "Emily",
   "license": "ISC",
   "devDependencies": {
@@ -39,6 +28,8 @@
     "preRelease": "npm install & gulp preRelease"
   },
   "dependencies": {
+    "express": "^4.15.3",
+    "serve-static": "^1.12.3",
     "supervisor": "^0.12.0"
   }
 }
