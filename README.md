@@ -1,2 +1,5 @@
 # nycda-final-project
-App for voice recognition (stretch goal: Translator) 
+App for voice recognition
+
+## To Start
+node server
