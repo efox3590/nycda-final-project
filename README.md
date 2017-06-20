@@ -18,8 +18,10 @@ Navagate to http://localhost/3000 to launch
 
 # Web Dev Tools
 * microsoft-speech-browser-sdk
+* express
 
 # Uses
+* The Microsoft Speech Service returns only one recognition phrase result for all recognition modes. There is a maximum limit of 15 seconds for any single utterance.
 
 # API Framework
 Microsoft's WebSocket Speech Recognition API
