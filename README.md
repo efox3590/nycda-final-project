@@ -30,7 +30,7 @@ It is defaulted to only display the ``DisplayText`` for this application.
 ## Server
 Navagate to http://localhost/3000 to launch
 
-# Web Dev Tools
+# Dependencies
 * microsoft-speech-browser-sdk
 * express
 * Node js
